@@ -1,0 +1,10 @@
+.attack_speed {
+  background: none;
+  color: green;
+}
+
+.stack_text {
+  background: none;
+  color: gray;
+  font-style: italic;
+}

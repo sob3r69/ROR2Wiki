@@ -1,0 +1,16 @@
+.cStack {
+  background: none;
+  color: gray;
+  font-style: italic;
+}
+
+.cIsDamage {
+  color: #e5c962;
+}
+
+.cIsUtility {
+}
+
+.cIsHealing {
+  color: #9ce562;
+}

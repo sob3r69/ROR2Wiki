@@ -1,0 +1,13 @@
+.itembox_container {
+  border: 1px solid white;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  padding: 8px;
+  max-width: 310px;
+}
+
+.itembox_info {
+  display: flex;
+  flex-direction: column;
+}
