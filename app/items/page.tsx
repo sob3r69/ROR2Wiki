@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './page.module.css';
 import { Bear, Syringe } from '@/data/Items';
 
-const page = () => {
+const ItemsPage = () => {
   return (
     <div className={styles.items}>
       <Syringe />
@@ -11,4 +11,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default ItemsPage;
