@@ -1,5 +1,5 @@
 import json from '@/data/Items.json';
-import ItemBox from '@/components/ItemBox';
+import ItemBox from '@/components/ItemBox/ItemBox';
 import './items.css';
 
 const data = json.strings;

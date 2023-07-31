@@ -1,8 +1,7 @@
-import Link from 'next/link';
 import React from 'react';
 import styles from './itembox.module.css';
 import Image from 'next/image';
-import items from '../data/Items.json';
+import items from '../../data/Items.json';
 
 type ItemProps = {
   itemName: string;
