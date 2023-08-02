@@ -1,0 +1,14 @@
+.itemPage_content {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  flex-direction: row;
+  padding-top: 8px;
+}
+
+.itemPage_model_preview {
+  background-color: black;
+  width: 400px;
+  height: 550px;
+}

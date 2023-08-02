@@ -2,7 +2,7 @@ import json from '@/data/Items.json';
 import ItemBox from '@/components/ItemBox/ItemBox';
 import './items.css';
 
-const data = json.strings;
+const data = json;
 
 export const Syringe = () => {
   return (
@@ -17,9 +17,9 @@ export const Syringe = () => {
 export const Bear = () => {
   return (
     <ItemBox
-      itemName={data.ITEM_BEAR_NAME}
+      itemName={data.bear.ITEM_NAME}
       imgSrc="/items/BearIcon.png"
-      itemDscr={data.ITEM_BEAR_DESC}
+      itemDscr={data.bear.ITEM_NAME}
     />
   );
 };

@@ -14,3 +14,10 @@
 .cIsHealing {
   color: #9ce562;
 }
+
+.cMono {
+  color: #8595a4;
+  line-height: 130%;
+  letter-spacing: 1px;
+  font-weight: bold;
+}

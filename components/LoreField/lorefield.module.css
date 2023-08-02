@@ -1,0 +1,10 @@
+.lore_field {
+  color: #ccd3e0;
+  background-color: #40515e;
+  line-height: 120%;
+  white-space: pre-wrap;
+  border: 2px solid #4f6372;
+  width: 600px;
+  overflow: hidden;
+  padding: 8px;
+}

@@ -1,10 +1,8 @@
-'use client';
 import Header from '@/components/Header/Header';
 import './globals.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import Modal from '@/components/Modal/Modal';
-import { useState } from 'react';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -14,12 +12,10 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
-  const [modalState, setModalState] = useState(true);
-
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Modal itemTitle="some" changeModalState={setModalState} modalState={modalState} />
+        {/* <Modal itemTitle="some" changeModalState={setModalState} modalState={modalState} /> */}
         <Header />
         {children}
       </body>
