@@ -8,3 +8,16 @@
   overflow: hidden;
   padding: 8px;
 }
+
+.lore_button {
+  background-color: #40515e;
+  border: 2px solid #4f6372;
+  color: #ccd3e0;
+  cursor: pointer;
+  padding: 4px;
+  width: 100%;
+}
+
+.lore_button:hover {
+  background-color: #637584;
+}

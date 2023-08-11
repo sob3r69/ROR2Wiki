@@ -26,7 +26,7 @@ const page = () => {
   return (
     <div className={style.itemPage_content}>
       <div className={style.itemPage_model_preview}></div>
-      <div>
+      <div className={style.info_container}>
         {/* @ts-ignore */}
         <p>{json[route].ITEM_NAME}</p>
         {/* @ts-ignore */}
