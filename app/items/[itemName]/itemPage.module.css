@@ -1,5 +1,5 @@
 .itemPage_content {
-  align-items: center;
+  align-items: start;
   display: flex;
   gap: 8px;
   justify-content: center;

@@ -13,10 +13,19 @@ const LoreField = ({ content }: LoreFieldProps) => {
     borderBottom: 'none',
     visibility: 'visible',
   };
+  const loreShow: React.CSSProperties = {
+    height: '100%',
+  };
+  const loreHidden: React.CSSProperties = {
+    height: '0px',
+    border: 'none',
+    padding: '0px',
+  };
   return (
     <div>
       <button
-        className={style.lore_button}
+        type="button"
+        className={style.showButton}
         style={showLore ? loreShowStyle : loreHiddenStyle}
         onClick={() => {
           loreState(!showLore);
@@ -24,7 +33,7 @@ const LoreField = ({ content }: LoreFieldProps) => {
       >
         Show lore
       </button>
-      <pre className={style.lore_field} style={{ visibility: showLore ? 'visible' : 'hidden' }}>
+      <pre className={style.content} style={showLore ? loreShow : loreHidden}>
         <div dangerouslySetInnerHTML={{ __html: content }} />
       </pre>
     </div>

@@ -6,6 +6,7 @@ import { usePathname, useParams } from 'next/navigation';
 import json from '@/data/Items.json';
 import '@/data/items.css';
 import LoreField from '@/components/LoreField/LoreField';
+import StackCalculator from '@/components/StackCalculator/StackCalculator';
 
 const page = () => {
   // const [descr, setDescr] = useState<any>([]);
@@ -33,6 +34,7 @@ const page = () => {
         <p dangerouslySetInnerHTML={{ __html: json[route].ITEM_DESC }} />
         {/* @ts-ignore */}
         <LoreField content={json[route].ITEM_LORE} />
+        <StackCalculator />
       </div>
     </div>
   );

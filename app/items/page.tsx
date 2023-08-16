@@ -8,10 +8,10 @@ import Modal from '@/components/Modal/Modal';
 const ItemsPage = () => {
   return (
     <div className={styles.items}>
-      <Link href={'items/?item=syringe'}>
+      <Link href={'items/soliders_syringe'}>
         <Syringe />
       </Link>
-      <Link href={'items/bear'}>
+      <Link href={'items/tougher_times'}>
         <Bear />
       </Link>
     </div>
