@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import style from './sCalc.module.css';
-import { CalcBear } from '@/utility/CalcFuncs';
+import { HyperBolic } from '@/utility/CalcFuncs';
 
 const StackCalculator = () => {
   const [amount, setAmount] = useState(0);
@@ -8,15 +8,14 @@ const StackCalculator = () => {
   const handleInput = (event: React.ChangeEvent<HTMLInputElement>) => {
     const value = parseInt(event.target.value);
     value >= 1 ? setAmount(parseInt(event.target.value)) : setAmount(0);
-    console.log(event.target.value);
   };
 
   return (
     <>
       <p>Count</p>
       <div className={style.container}>
-        <input type="number" className={style.numField} onChange={handleInput} />=
-        <p className="cIsHealing">{CalcBear(amount)}%</p>
+        <input title="stackField" type="number" className={style.numField} onChange={handleInput} />
+        =<p className="cIsHealing">{HyperBolic(amount).toFixed(1)}%</p>
       </div>
     </>
   );

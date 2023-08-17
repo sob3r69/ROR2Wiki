@@ -25,15 +25,15 @@ const page = () => {
   // }, []);
   const route = useParams().itemName;
   return (
-    <div className={style.itemPage_content}>
-      <div className={style.itemPage_model_preview}></div>
+    <div className={style.content}>
+      <div className={style.model_preview}></div>
       <div className={style.info_container}>
         {/* @ts-ignore */}
-        <p>{json[route].ITEM_NAME}</p>
+        <p>{json[route].NAME}</p>
         {/* @ts-ignore */}
-        <p dangerouslySetInnerHTML={{ __html: json[route].ITEM_DESC }} />
+        <p dangerouslySetInnerHTML={{ __html: json[route].DESC }} />
         {/* @ts-ignore */}
-        <LoreField content={json[route].ITEM_LORE} />
+        <LoreField content={json[route].LORE} />
         <StackCalculator />
       </div>
     </div>

@@ -7,9 +7,9 @@ const data = json;
 export const Syringe = () => {
   return (
     <ItemBox
-      itemName={data.soliders_syringe.ITEM_NAME}
+      itemName={data.soliders_syringe.NAME}
       imgSrc="/items/SyringeIcon.png"
-      itemDscr={data.soliders_syringe.ITEM_DESC}
+      itemDscr={data.soliders_syringe.DESC}
     />
   );
 };
@@ -17,9 +17,9 @@ export const Syringe = () => {
 export const Bear = () => {
   return (
     <ItemBox
-      itemName={data.tougher_times.ITEM_NAME}
+      itemName={data.tougher_times.NAME}
       imgSrc="/items/BearIcon.png"
-      itemDscr={data.tougher_times.ITEM_DESC}
+      itemDscr={data.tougher_times.DESC}
     />
   );
 };
