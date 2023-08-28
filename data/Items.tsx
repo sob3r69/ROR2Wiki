@@ -23,3 +23,13 @@ export const Bear = () => {
     />
   );
 };
+
+export const Behemoth = () => {
+  return (
+    <ItemBox
+      itemName={data.brilliant_behemoth.NAME}
+      imgSrc="/items/BearIcon.png"
+      itemDscr={data.brilliant_behemoth.DESC}
+    />
+  );
+};

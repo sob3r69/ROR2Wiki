@@ -9,23 +9,33 @@
   "ITEM_CLOVER_LORE": "It was a massacre. The orbital probes had incinerated both the battalion and the enemy\u2013 as well as the entire plateau. There was no life left to be found - except for one lone soldier.\r\n\r\nThe soldier trudged through the scorched plains, numbly looking for any survivors.\r\n\r\nBut he found none.\r\n\r\nThe soldier tried to find water \u2013 he had only just noticed how thirsty he was, and how much his head hurt. How much his heart hurt.\r\n\r\nBut he found none.\r\n\r\nThe soldier tried to remember, why he was out on this terrible mission, and why he had to say goodbye to so many.\r\n\r\nBut he found none.\r\n\r\nThe soldier tried to find anything \u2013 anything that could justify why he was alive. Some semblance of meaning \u2013 or hope.\r\n\r\nAnd he found one.\r\n\r\nA small leaf, peeking out from a pile of ash. He gently plucked the clover out of the ground \u2013 somehow, it survived hours of orbital bombardments. \r\n\r\nWith clover in hand, the soldier began the long trek to report back to his superiors. Was this divine intervention? Was there some meaning \u2013 some reason as to why both him and this little clover survived? \r\n\r\nOr were they just lucky?\r\n",
   "soliders_syringe": {
     "NAME": "Soldier's Syringe",
+    "INIT": 15,
+    "ITER": 15,
+    "SYMBOL": "%",
+    "STACK": "Linear",
     "PICKUP": "Increase attack speed.",
     "DESC": "Increases <span class=cIsDamage>attack speed</span> by <span class=cIsDamage>15%</span> <span class=cStack>(+15% per stack)</span>.",
     "LORE": "\"I ain't much for drugs... but hell, when fortune is knockin', ya gotta greet that door with a smile and a nod. Salud!\"\r\n\r\n-Signal echoes, UES Contact Light\r\n"
   },
   "tougher_times": {
     "NAME": "Tougher Times",
-    "CHANCE": 0.15,
+    "INIT": 0.15,
     "STACK": "Hyperbolic",
+    "SYMBOL": "%",
     "PICKUP": "Chance to block incoming damage.",
-    "DESC": "<span class=cIsHealing>15%</span> <span class=cStack>(+15% per stack)</span> chance to <span class=cIsHealing>block</span> incoming damage. Unaffected by luck.",
+    "DESC": "<span class=cIsHealing>13%</span> <span class=cStack>(+13% per stack)</span> chance to <span class=cIsHealing>block</span> incoming damage. Unaffected by luck.",
     "LORE": "<span class=cMono>//--AUTO-TRANSCRIPTION FROM ROOM 4211B OF UES [Redacted] --//</span>\n\n\"Why'd you sign up?\"\n\nWyatt's voice was bored. The mission to the Contact Light's last known location was taking longer than he expected.\n\nMalik was on the floor, cleaning her rifle. \"To get paid, mostly.\"\n\n\"And that's it?\"\n\nShe grunted in affirmation. She continued to wipe down the weapon.\n\n\"I'm here to find something.\" He continued. \"I shipped it a few years back, but I don't think it made it before the train went down. I'm guessing it's still in the Contact Light. So I'm gonna get it back.\"\n\nShe began to tighten the last remaining bolts. Her routine near completion, she moved her gaze to Wyatt. \"Seriously?\"\n\n\"Yep!\"\n\nMalik raised her brow. \"There were over 7 million security chests in the Contact Light. The chance of you finding a specific one is impossible.\" She began to unfold her legs as she propped her rifle in the corner. \"And according to the distress beacon, the Contact Light was destroyed in orbit. Your shipment is probably floating around in space. It's all gone, Wyatt.\"\n\nHe grinned. \"I think I'm gonna find it.\"\n\n\"You're terrible.\"\n"
   },
-
-  "ITEM_BEHEMOTH_NAME": "Brilliant Behemoth",
-  "ITEM_BEHEMOTH_PICKUP": "All your attacks explode!",
-  "ITEM_BEHEMOTH_DESC": "All your <style=cIsDamage>attacks explode</style> in a <style=cIsDamage>4m </style> <style=cStack>(+1.5m per stack)</style> radius for a bonus <style=cIsDamage>60%</style> TOTAL damage to nearby enemies.",
-  "ITEM_BEHEMOTH_LORE": "\u201CLasers have their speed. Swords have their edge. Gases have their reach. \r\n\r\nBut let me tell you... Nothing, and I mean NOTHING, is as timeless as gunpowder. Just a pinch - jammed into a tight enough socket - and KABOOM! You got yourself not just a powerful weapon, but something that\u2019ll leave a lasting sense of fear in your enemies. I mean, nobody wants to be blown up, right?\u201D\r\n\r\n- Autobiography of Jans Czar, Modern King of Weaponry\r\n",
+  "brilliant_behemoth": {
+    "NAME": "Brilliant Behemoth",
+    "PICKUP": "All your attacks explode!",
+    "INIT": 4,
+    "ITER": 1.5,
+    "STACK": "Linear",
+    "SYMBOL": "m",
+    "DESC": "All your <span class=cIsDamage>attacks explode</span> in a <span class=cIsDamage>4m </span> <span class=cStack>(+1.5m per stack)</span> radius for a bonus <span class=cIsDamage>60%</span> TOTAL damage to nearby enemies.",
+    "LORE": "\u201CLasers have their speed. Swords have their edge. Gases have their reach. \r\n\r\nBut let me tell you... Nothing, and I mean NOTHING, is as timeless as gunpowder. Just a pinch - jammed into a tight enough socket - and KABOOM! You got yourself not just a powerful weapon, but something that\u2019ll leave a lasting sense of fear in your enemies. I mean, nobody wants to be blown up, right?\u201D\r\n\r\n- Autobiography of Jans Czar, Modern King of Weaponry\r\n"
+  },
 
   "ITEM_MISSILE_NAME": "AtG Missile Mk. 1",
   "ITEM_MISSILE_PICKUP": "Chance to fire a missile.",

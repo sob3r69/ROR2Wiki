@@ -3,6 +3,7 @@
   background-color: #40515e;
   line-height: 120%;
   white-space: pre-wrap;
+  line-break: anywhere;
   border: 2px solid #4f6372;
   width: 600px;
   overflow: hidden;
@@ -15,7 +16,7 @@
   color: #ccd3e0;
   cursor: pointer;
   padding: 4px;
-  width: 100%;
+  /* width: 100%; */
 }
 
 .showButton:hover {

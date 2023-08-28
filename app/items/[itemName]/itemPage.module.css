@@ -17,4 +17,6 @@
   display: flex;
   flex-direction: column;
   gap: 8px;
+  max-width: 600px;
+  line-height: 120%;
 }
