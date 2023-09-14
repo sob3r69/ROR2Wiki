@@ -28,8 +28,17 @@ export const Behemoth = () => {
   return (
     <ItemBox
       itemName={data.brilliant_behemoth.NAME}
-      imgSrc="/items/BearIcon.png"
+      imgSrc="/items/BehemothIcon.png"
       itemDscr={data.brilliant_behemoth.DESC}
+    />
+  );
+};
+export const AtgMissile = () => {
+  return (
+    <ItemBox
+      itemName={data.atg_missile.NAME}
+      imgSrc="/items/AtgIcon.png"
+      itemDscr={data.atg_missile.DESC}
     />
   );
 };

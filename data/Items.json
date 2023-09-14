@@ -36,12 +36,16 @@
     "DESC": "All your <span class=cIsDamage>attacks explode</span> in a <span class=cIsDamage>4m </span> <span class=cStack>(+1.5m per stack)</span> radius for a bonus <span class=cIsDamage>60%</span> TOTAL damage to nearby enemies.",
     "LORE": "\u201CLasers have their speed. Swords have their edge. Gases have their reach. \r\n\r\nBut let me tell you... Nothing, and I mean NOTHING, is as timeless as gunpowder. Just a pinch - jammed into a tight enough socket - and KABOOM! You got yourself not just a powerful weapon, but something that\u2019ll leave a lasting sense of fear in your enemies. I mean, nobody wants to be blown up, right?\u201D\r\n\r\n- Autobiography of Jans Czar, Modern King of Weaponry\r\n"
   },
-
-  "ITEM_MISSILE_NAME": "AtG Missile Mk. 1",
-  "ITEM_MISSILE_PICKUP": "Chance to fire a missile.",
-  "ITEM_MISSILE_DESC": "<style=cIsDamage>10%</style> chance to fire a missile that deals <style=cIsDamage>300%</style> <style=cStack>(+300% per stack)</style> TOTAL damage.",
-  "ITEM_MISSILE_LORE": "Fixing a spare bayonet onto his shotgun, he glanced at the horizon. The thundering of footsteps big and small was growing louder and louder \u2013 they were nearly upon him. He went over his kit one last time.\r\n\r\nFive bayonets. Twenty three packs of incendiary explosives. Fifteen magazines of armor-piercing ammunition. Thirty three sticky bombs. Four tear-gas grenades, and so on.\r\n\r\nAnd his favorite \u2013 two shoulder-mounted missile launchers, loaded with six AtG Viper Missiles. Heat seeking, detonation power of 15 pounds of TNT per missile. Light-weight, and the best part \u2013 automatic firing mechanism. He initially favored a more analog approach to his weapons, but the thing had grown on him.\r\n\r\nTurning to face the oncoming mob, he loaded his shotgun. The adrenaline started pumping.\r\n\r\n\u201CBring it on.\u201D\r\n",
-
+  "atg_missile": {
+    "NAME": "AtG Missile Mk. 1",
+    "PICKUP": "Chance to fire a missile.",
+    "INIT": 300,
+    "ITER": 300,
+    "STACK": "Linear",
+    "SYMBOL": "%",
+    "DESC": "<span class=cIsDamage>10%</span> chance to fire a missile that deals <span class=cIsDamage>300%</span> <span class=cStack>(+300% per stack)</span> TOTAL damage.",
+    "LORE": "Fixing a spare bayonet onto his shotgun, he glanced at the horizon. The thundering of footsteps big and small was growing louder and louder \u2013 they were nearly upon him. He went over his kit one last time.\r\n\r\nFive bayonets. Twenty three packs of incendiary explosives. Fifteen magazines of armor-piercing ammunition. Thirty three sticky bombs. Four tear-gas grenades, and so on.\r\n\r\nAnd his favorite \u2013 two shoulder-mounted missile launchers, loaded with six AtG Viper Missiles. Heat seeking, detonation power of 15 pounds of TNT per missile. Light-weight, and the best part \u2013 automatic firing mechanism. He initially favored a more analog approach to his weapons, but the thing had grown on him.\r\n\r\nTurning to face the oncoming mob, he loaded his shotgun. The adrenaline started pumping.\r\n\r\n\u201CBring it on.\u201D\r\n"
+  },
   "ITEM_EXPLODEONDEATH_NAME": "Will-o'-the-wisp",
   "ITEM_EXPLODEONDEATH_PICKUP": "Detonate enemies on kill.",
   "ITEM_EXPLODEONDEATH_DESC": "On killing an enemy, spawn a <style=cIsDamage>lava pillar</style> in a <style=cIsDamage>12m</style> <style=cStack>(+2.4m per stack)</style> radius for <style=cIsDamage>350%</style> <style=cStack>(+280% per stack)</style> base damage.",

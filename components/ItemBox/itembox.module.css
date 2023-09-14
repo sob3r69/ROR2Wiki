@@ -1,4 +1,5 @@
 .itembox_container {
+  background-color: rgba(0, 0, 0, 0.5);
   border: 1px solid white;
   border-radius: 8px;
   display: flex;
@@ -11,4 +12,5 @@
 .itembox_info {
   display: flex;
   flex-direction: column;
+  margin-left: 8px;
 }

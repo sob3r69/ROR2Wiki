@@ -1,10 +1,13 @@
 .content {
   align-items: start;
+  background-color: rgba(0, 0, 0, 0.5);
   display: flex;
   gap: 8px;
   justify-content: center;
   flex-direction: row;
   padding-top: 8px;
+  margin: auto;
+  width: fit-content;
 }
 
 .model_preview {

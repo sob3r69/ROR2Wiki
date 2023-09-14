@@ -2,6 +2,7 @@ import Header from '@/components/Header/Header';
 import './globals.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
+import bg from '@/public/backgrounds/bg_one.jpg';
 import Modal from '@/components/Modal/Modal';
 
 const inter = Inter({ subsets: ['latin'] });
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="en" style={{ backgroundImage: 'url(' + bg.src + ')', backdropFilter: 'blur(8px)' }}>
       <body className={inter.className}>
         {/* <Modal itemTitle="some" changeModalState={setModalState} modalState={modalState} /> */}
         <Header />

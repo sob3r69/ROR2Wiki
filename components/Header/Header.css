@@ -1,7 +1,14 @@
 header {
   align-items: center;
-  background-color: black;
+  align-self: center;
+  background-color: rgba(0, 0, 0, 0.26);
+  border-radius: 16px;
+  border: 2px solid #4f6372;
   display: flex;
+  gap: 32px;
   justify-content: space-evenly;
   height: 60px;
+  margin: 8px auto 8px auto;
+  padding: 0px 8px 0px 8px;
+  width: fit-content;
 }

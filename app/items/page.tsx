@@ -1,7 +1,7 @@
 'use client';
 import React, { useState } from 'react';
 import styles from './page.module.css';
-import { Bear, Behemoth, Syringe } from '@/data/Items';
+import { AtgMissile, Bear, Behemoth, Syringe } from '@/data/Items';
 import Link from 'next/link';
 import Modal from '@/components/Modal/Modal';
 
@@ -16,6 +16,9 @@ const ItemsPage = () => {
       </Link>
       <Link href={'items/brilliant_behemoth'}>
         <Behemoth />
+      </Link>
+      <Link href={'items/atg_missile'}>
+        <AtgMissile />
       </Link>
     </div>
   );
