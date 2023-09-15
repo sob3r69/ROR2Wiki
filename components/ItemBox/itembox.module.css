@@ -1,16 +1,23 @@
-.itembox_container {
-  background-color: rgba(0, 0, 0, 0.5);
+.container {
+  /* background-image: linear-gradient(to right, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.5)); */
+  backdrop-filter: blur(16px);
   border: 1px solid white;
   border-radius: 8px;
   display: flex;
   flex-direction: row;
   height: 100%;
   padding: 8px;
-  max-width: 310px;
+  max-width: 450px;
 }
 
-.itembox_info {
+.info {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+
   margin-left: 8px;
+}
+
+img {
+  align-self: center;
 }

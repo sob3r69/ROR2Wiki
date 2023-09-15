@@ -1,13 +1,22 @@
 'use client';
 import React, { useState } from 'react';
 import styles from './page.module.css';
-import { AtgMissile, Bear, Behemoth, Syringe } from '@/data/Items';
+import {
+  AtgMissile,
+  Bear,
+  Behemoth,
+  Dagger,
+  Glasses,
+  MonsterTooth,
+  Syringe,
+  WilloWisp,
+} from '@/data/Items';
 import Link from 'next/link';
 import Modal from '@/components/Modal/Modal';
 
 const ItemsPage = () => {
   return (
-    <div className={styles.items}>
+    <main className={styles.items}>
       <Link href={'items/soliders_syringe'}>
         <Syringe />
       </Link>
@@ -20,7 +29,19 @@ const ItemsPage = () => {
       <Link href={'items/atg_missile'}>
         <AtgMissile />
       </Link>
-    </div>
+      <Link href={'items/willo_wisp'}>
+        <WilloWisp />
+      </Link>
+      <Link href={'items/dagger'}>
+        <Dagger />
+      </Link>
+      <Link href={'items/monster_tooth'}>
+        <MonsterTooth />
+      </Link>
+      <Link href={'items/glasses'}>
+        <Glasses />
+      </Link>
+    </main>
   );
 };
 
