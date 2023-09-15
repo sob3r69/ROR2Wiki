@@ -6,9 +6,14 @@ import {
   Bear,
   Behemoth,
   Dagger,
+  FrostRelic,
   Glasses,
+  GoatsHoof,
+  HopooFeather,
+  LeechSeed,
   MonsterTooth,
   Syringe,
+  Ukulele,
   WilloWisp,
 } from '@/data/Items';
 import Link from 'next/link';
@@ -40,6 +45,21 @@ const ItemsPage = () => {
       </Link>
       <Link href={'items/glasses'}>
         <Glasses />
+      </Link>
+      <Link href={'items/goats_hoof'}>
+        <GoatsHoof />
+      </Link>
+      <Link href={'items/hopoo_feather'}>
+        <HopooFeather />
+      </Link>
+      <Link href={'items/ukulele'}>
+        <Ukulele />
+      </Link>
+      <Link href={'items/leeching_seed'}>
+        <LeechSeed />
+      </Link>
+      <Link href={'items/leeching_seed'}>
+        <FrostRelic />
       </Link>
     </main>
   );

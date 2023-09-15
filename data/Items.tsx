@@ -86,3 +86,53 @@ export const Glasses = () => {
     />
   );
 };
+export const GoatsHoof = () => {
+  return (
+    <ItemBox
+      itemName={data.goat_hoof.NAME}
+      imgSrc="/items/HoofIcon.png"
+      itemDscr={data.goat_hoof.DESC}
+      itemRarity="white"
+    />
+  );
+};
+export const HopooFeather = () => {
+  return (
+    <ItemBox
+      itemName={data.hopoo_feather.NAME}
+      imgSrc="/items/FeatherIcon.png"
+      itemDscr={data.hopoo_feather.DESC}
+      itemRarity="green"
+    />
+  );
+};
+export const Ukulele = () => {
+  return (
+    <ItemBox
+      itemName={data.ukulele.NAME}
+      imgSrc="/items/UkuleleIcon.png"
+      itemDscr={data.ukulele.DESC}
+      itemRarity="green"
+    />
+  );
+};
+export const LeechSeed = () => {
+  return (
+    <ItemBox
+      itemName={data.leeching_seed.NAME}
+      imgSrc="/items/SeedIcon.png"
+      itemDscr={data.leeching_seed.DESC}
+      itemRarity="white"
+    />
+  );
+};
+export const FrostRelic = () => {
+  return (
+    <ItemBox
+      itemName={data.frost_relic.NAME}
+      imgSrc="/items/FrostRelicIcon.png"
+      itemDscr={data.frost_relic.DESC}
+      itemRarity="red"
+    />
+  );
+};

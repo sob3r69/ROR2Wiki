@@ -87,30 +87,56 @@
     "DESC": "Your attacks have a <span class=cIsDamage>10%</span> <span class=cStack>(+10% per stack)</span> chance to '<span class=cIsDamage>Critically Strike</span>', dealing <span class=cIsDamage>double damage</span>.",
     "LORE": "\u2026What I didn\u2019t see was that the golem was aiming its laser at my back. I managed to barely dodge it - just by pure luck - but the blast knocked me to the ground. My glasses flew off my face and I was on my back, stunned, barely able to make sense of myself\u2026\r\n\r\nAnd then... well, I can\u2019t really explain what happened next. Adrenaline, some kind of divine intervention, I dunno. But I reached out, and managed to grab my glasses, raise \u2018em up to my eyes so I could see, and BAM! Fired the last of my bullets.\r\n\r\nAnd, well... I guess I managed to hit something vital in its head. Exploded in red stone and glass. It stopped moving after that. \r\n\r\nIf it wasn\u2019t for that shot, I wouldn\u2019t be here telling this story.\u201D\r\n\r\n-Signal echoes, UES Contact Light\r\n"
   },
-  "ITEM_HOOF_NAME": "Paul's Goat Hoof",
-  "ITEM_HOOF_PICKUP": "Increase movement speed.",
-  "ITEM_HOOF_DESC": "Increases <span class=cIsUtility>movement speed</span> by <span class=cIsUtility>14%</span> <span class=cStack>(+14% per stack)</span>.",
-  "ITEM_HOOF_LORE": "Order: Paul\u2019s Goat Hoof\r\nTracking Number: 187*****\r\nEstimated Delivery: 03/27/2056\r\nShipping Method:  Standard\r\nShipping Address: 2663rd Fields, Redmond, Venus\r\nShipping Details:\r\n\r\nA hoof from one of my many goats; I noticed one day that one of my goats had an abnormally large foot. Thinking it was cancerous, I went to the doctors and lo-and-behold - it was. My goat died shortly after.\r\n",
-
-  "ITEM_FEATHER_NAME": "Hopoo Feather",
-  "ITEM_FEATHER_PICKUP": "Gain an extra jump.",
-  "ITEM_FEATHER_DESC": "Gain <span class=cIsUtility>+1</span> <span class=cStack>(+1 per stack)</span> maximum <span class=cIsUtility>jump count</span>.",
-  "ITEM_FEATHER_LORE": "\u201C...Europan laws have cracked down heavily on poaching, with the intent to help the reemergence of the hopoo. Since then, the Greebokks Foundation has helped support hopoo conservation groups, substantially growing their population beyond the initial three that were recorded in recent years.\u201D\r\n\r\n- Europan Wildlife Guide\r\n",
-
-  "ITEM_CHAINLIGHTNING_NAME": "Ukulele",
-  "ITEM_CHAINLIGHTNING_PICKUP": "...and his music was electric.",
-  "ITEM_CHAINLIGHTNING_DESC": "<span class=cIsDamage>25%</span> chance to fire <span class=cIsDamage>chain lightning</span> for <span class=cIsDamage>80%</span> TOTAL damage on up to <span class=cIsDamage>3 <span class=cStack>(+2 per stack)</span></span> targets within <span class=cIsDamage>20m</span> <span class=cStack>(+2m per stack)</span>.",
-  "ITEM_CHAINLIGHTNING_LORE": "<span class=cMono>\r\n//--AUTO-TRANSCRIPTION FROM RALLYPOINT [Redacted] --//</span>\r\n\r\nThe planet was unforgiving, taking more and more with each passing day. Lives and limbs were lost, and the medical tent grew increasingly busy.\r\n\r\nJans was unfortunate enough to walk right into a group of Lemurians during a routine check around the rallypoint perimeter. He was lucky enough to escape with his life, but the Lemurians wounded his leg before backup arrived. \r\n\r\nJans leaned back in his cot. He strummed the strings on his ukulele \u2013 which he had picked up from an earlier expedition \u2013 as he contemplated his thoughts. Nothing too complex, but just a simple tune that he had picked up back when he took lessons as a child. Unbeknownst to him, one by one, he had gathered himself an audience. The gentle melodies of Jans\u2019 ukulele brought a rare comfort to the pained and labored patients, and for the first time since admittance, they felt like they could smile.\r\n\r\nLife in the medical tent was never something anybody could look forward to. Death, irreversible injuries, and a choking atmosphere surrounded them. But for a brief moment\u2026 the lives of those patients became that much brighter. Jans stopped, surveying the crowd intently watching him. \r\n\r\nHe laughed, readying himself for an encore. Maybe things wouldn\u2019t be so bad after all.\r\n",
-
-  "ITEM_SEED_NAME": "Leeching Seed",
-  "ITEM_SEED_PICKUP": "Dealing damage heals you.",
-  "ITEM_SEED_DESC": "Dealing damage <span class=cIsHealing>heals</span> you for <span class=cIsHealing>1 <span class=cStack>(+1 per stack)</span> health</span>.",
-  "ITEM_SEED_LORE": "It was a crisp evening - and things were looking up. The botanist began walking towards the Plant Biology Complex to check on several alien plants that had been recovered from the week before.\r\n\r\nAnother worker was already in the complex, busy at work.\r\n\r\n\u201CHey.\u201D \u201COh, hello!\u201D The worker greeted her enthusiastically. He was carrying several bags of fertilizer, and she gave him a quizzical look. \u201CYou need any help with those?\u201D She said, gathering her clipboard for her check.\r\n\r\n\u201COh no, I\u2019m alright. It\u2019s a good workout, actually,\u201D he said. As they walked, the botanist couldn\u2019t help but wonder what kind of job would require THAT much fertilizer.\r\n\r\nAs the door to the greenhouse whirred open, she got her answer \u2013 roots scaling the height of the greenhouse and snaking along the ceiling, even invading the containers of other specimens. \u201CWhat the hell!?\u201D She cried, her jaw slack. And then she noticed the other plants. \r\n\r\nEvery other plant in the greenhouse had withered \u2013 with an incriminating root leading back to the overgrowth that the worker was now feeding fertilizer. The botanist was speechless. \u201CWhat happened...? What... what is that...?\u201D She stammered. The worker turned to her and grinned.\r\n\r\n\u201COne of the species we got in the last expedition. He demands a lot of nutrients - it took me so long to get him to even sprout. I was wracking my brain, trying every trick in the book. And every other specimen seemed to be growing fine, so I figured, hey, why not share some of that? And look!\u201D\r\n\r\nSpreading his arms, the worker marveled at the gallery of dead plants. Dropping her clipboard, the botanist\u2019s stomach sank. Things were no longer looking up.\r\n",
-
-  "ITEM_ICICLE_NAME": "Frost Relic",
-  "ITEM_ICICLE_PICKUP": "Killing enemies surrounds you with an ice storm.",
-  "ITEM_ICICLE_DESC": "Killing an enemy surrounds you with an <span class=cIsDamage>ice storm</span> that deals <span class=cIsDamage>1200% damage per second</span> and <span class=cIsUtility>slows</span> enemies by <span class=cIsUtility>80%</span> for <span class=cIsUtility>1.5s</span>. The storm <span class=cIsDamage>grows with every kill</span>, increasing its radius by <span class=cIsDamage>2m</span>. Stacks up to <span class=cIsDamage>18m</span> <span class=cStack>(+12m per stack)</span>.",
-  "ITEM_ICICLE_LORE": "\u201CSven Volz discovered the specimen that holds the record of Galaxy\u2019s Largest Snowflake: a whopping 0.5 meters in diameter, with an average temperature of -52 degrees. However \u2013 much to the despair of novelty snowflake enthusiasts everywhere \u2013 this gargantuan snowflake was lost in transit aboard the UES Contact Light, which disappeared in uncharted territory. One can only hope that it is preserved and frosty as ever, where ever it may be.\u201D\r\n- Academy Galactic Records 2056\r\n",
+  "goat_hoof": {
+    "NAME": "Paul's Goat Hoof",
+    "PICKUP": "Increase movement speed.",
+    "INIT": 14,
+    "ITER": 14,
+    "STACK": "Linear",
+    "SYMBOL": "%",
+    "DESC": "Increases <span class=cIsUtility>movement speed</span> by <span class=cIsUtility>14%</span> <span class=cStack>(+14% per stack)</span>.",
+    "LORE": "Order: Paul\u2019s Goat Hoof\r\nTracking Number: 187*****\r\nEstimated Delivery: 03/27/2056\r\nShipping Method:  Standard\r\nShipping Address: 2663rd Fields, Redmond, Venus\r\nShipping Details:\r\n\r\nA hoof from one of my many goats; I noticed one day that one of my goats had an abnormally large foot. Thinking it was cancerous, I went to the doctors and lo-and-behold - it was. My goat died shortly after.\r\n"
+  },
+  "hopoo_feather": {
+    "NAME": "Hopoo Feather",
+    "PICKUP": "Gain an extra jump.",
+    "INIT": 1,
+    "ITER": 1,
+    "STACK": "Linear",
+    "SYMBOL": "",
+    "DESC": "Gain <span class=cIsUtility>+1</span> <span class=cStack>(+1 per stack)</span> maximum <span class=cIsUtility>jump count</span>.",
+    "LORE": "\u201C...Europan laws have cracked down heavily on poaching, with the intent to help the reemergence of the hopoo. Since then, the Greebokks Foundation has helped support hopoo conservation groups, substantially growing their population beyond the initial three that were recorded in recent years.\u201D\r\n\r\n- Europan Wildlife Guide\r\n"
+  },
+  "ukulele": {
+    "NAME": "Ukulele",
+    "PICKUP": "...and his music was electric.",
+    "INIT": 3,
+    "ITER": 2,
+    "STACK": "Linear",
+    "SYMBOL": "",
+    "DESC": "<span class=cIsDamage>25%</span> chance to fire <span class=cIsDamage>chain lightning</span> for <span class=cIsDamage>80%</span> TOTAL damage on up to <span class=cIsDamage>3 <span class=cStack>(+2 per stack)</span></span> targets within <span class=cIsDamage>20m</span> <span class=cStack>(+2m per stack)</span>.",
+    "LORE": "<span class=cMono>\r\n//--AUTO-TRANSCRIPTION FROM RALLYPOINT [Redacted] --//</span>\r\n\r\nThe planet was unforgiving, taking more and more with each passing day. Lives and limbs were lost, and the medical tent grew increasingly busy.\r\n\r\nJans was unfortunate enough to walk right into a group of Lemurians during a routine check around the rallypoint perimeter. He was lucky enough to escape with his life, but the Lemurians wounded his leg before backup arrived. \r\n\r\nJans leaned back in his cot. He strummed the strings on his ukulele \u2013 which he had picked up from an earlier expedition \u2013 as he contemplated his thoughts. Nothing too complex, but just a simple tune that he had picked up back when he took lessons as a child. Unbeknownst to him, one by one, he had gathered himself an audience. The gentle melodies of Jans\u2019 ukulele brought a rare comfort to the pained and labored patients, and for the first time since admittance, they felt like they could smile.\r\n\r\nLife in the medical tent was never something anybody could look forward to. Death, irreversible injuries, and a choking atmosphere surrounded them. But for a brief moment\u2026 the lives of those patients became that much brighter. Jans stopped, surveying the crowd intently watching him. \r\n\r\nHe laughed, readying himself for an encore. Maybe things wouldn\u2019t be so bad after all.\r\n"
+  },
+  "leeching_seed": {
+    "NAME": "Leeching Seed",
+    "PICKUP": "Dealing damage heals you.",
+    "INIT": 1,
+    "ITER": 1,
+    "STACK": "Linear",
+    "SYMBOL": "",
+    "DESC": "Dealing damage <span class=cIsHealing>heals</span> you for <span class=cIsHealing>1 <span class=cStack>(+1 per stack)</span> health</span>.",
+    "LORE": "It was a crisp evening - and things were looking up. The botanist began walking towards the Plant Biology Complex to check on several alien plants that had been recovered from the week before.\r\n\r\nAnother worker was already in the complex, busy at work.\r\n\r\n\u201CHey.\u201D \u201COh, hello!\u201D The worker greeted her enthusiastically. He was carrying several bags of fertilizer, and she gave him a quizzical look. \u201CYou need any help with those?\u201D She said, gathering her clipboard for her check.\r\n\r\n\u201COh no, I\u2019m alright. It\u2019s a good workout, actually,\u201D he said. As they walked, the botanist couldn\u2019t help but wonder what kind of job would require THAT much fertilizer.\r\n\r\nAs the door to the greenhouse whirred open, she got her answer \u2013 roots scaling the height of the greenhouse and snaking along the ceiling, even invading the containers of other specimens. \u201CWhat the hell!?\u201D She cried, her jaw slack. And then she noticed the other plants. \r\n\r\nEvery other plant in the greenhouse had withered \u2013 with an incriminating root leading back to the overgrowth that the worker was now feeding fertilizer. The botanist was speechless. \u201CWhat happened...? What... what is that...?\u201D She stammered. The worker turned to her and grinned.\r\n\r\n\u201COne of the species we got in the last expedition. He demands a lot of nutrients - it took me so long to get him to even sprout. I was wracking my brain, trying every trick in the book. And every other specimen seemed to be growing fine, so I figured, hey, why not share some of that? And look!\u201D\r\n\r\nSpreading his arms, the worker marveled at the gallery of dead plants. Dropping her clipboard, the botanist\u2019s stomach sank. Things were no longer looking up.\r\n"
+  },
+  "frost_relic": {
+    "NAME": "Frost Relic",
+    "PICKUP": "Killing enemies surrounds you with an ice storm.",
+    "INIT": 1,
+    "ITER": 1,
+    "STACK": "Linear",
+    "SYMBOL": "m",
+    "DESC": "Killing an enemy surrounds you with an <span class=cIsDamage>ice storm</span> that deals <span class=cIsDamage>1200% damage per second</span> and <span class=cIsUtility>slows</span> enemies by <span class=cIsUtility>80%</span> for <span class=cIsUtility>1.5s</span>. The storm <span class=cIsDamage>grows with every kill</span>, increasing its radius by <span class=cIsDamage>2m</span>. Stacks up to <span class=cIsDamage>18m</span> <span class=cStack>(+12m per stack)</span>.",
+    "LORE": "\u201CSven Volz discovered the specimen that holds the record of Galaxy\u2019s Largest Snowflake: a whopping 0.5 meters in diameter, with an average temperature of -52 degrees. However \u2013 much to the despair of novelty snowflake enthusiasts everywhere \u2013 this gargantuan snowflake was lost in transit aboard the UES Contact Light, which disappeared in uncharted territory. One can only hope that it is preserved and frosty as ever, where ever it may be.\u201D\r\n- Academy Galactic Records 2056\r\n"
+  },
 
   "ITEM_GHOSTONKILL_NAME": "Happiest Mask",
   "ITEM_GHOSTONKILL_PICKUP": "Chance on killing an enemy to summon a ghost.",

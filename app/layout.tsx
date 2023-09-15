@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" style={{ backgroundImage: 'url(' + bg.src + ')', backdropFilter: 'blur(8px)' }}>
+    <html lang="en" style={{ backgroundImage: 'url(' + bg.src + ')' }}>
       <body className={inter.className}>
         {/* <Modal itemTitle="some" changeModalState={setModalState} modalState={modalState} /> */}
         <Header />
