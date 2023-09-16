@@ -7,21 +7,24 @@ type ItemProps = {
   itemName: string;
   imgSrc: string;
   itemDscr: string;
-  itemRarity: string;
+  itemRarity: number;
 };
 type Rarity = {
   [index: string]: { backgroundImage: string };
 };
 
 const rarity: Rarity = {
-  green: {
+  // White
+  0: {
+    backgroundImage: 'linear-gradient(to right, rgba(255, 255, 255, 0.15), rgba(0, 0, 0, 0.5))',
+  },
+  //Green
+  1: {
     backgroundImage: 'linear-gradient(to right, rgba(21, 255, 0, 0.15), rgba(0, 0, 0, 0.5))',
   },
-  red: {
+  //Red
+  3: {
     backgroundImage: 'linear-gradient(to right, rgba(255, 0, 0, 0.15), rgba(0, 0, 0, 0.5))',
-  },
-  white: {
-    backgroundImage: 'linear-gradient(to right, rgba(255, 255, 255, 0.15), rgba(0, 0, 0, 0.5))',
   },
 };
 
