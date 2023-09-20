@@ -41,11 +41,29 @@ const ItemsSorting = () => {
 
   return (
     <div className={style.container}>
-      <button onClick={sortItemsUp}>RARITY -+</button>
-      <button onClick={sortDataDown}>RARITY +-</button>
-      <button onClick={sortWhite}>white</button>
-      <button onClick={sortGreen}>green</button>
-      <button onClick={sortRed}>red</button>
+      <button
+        className={style.button + ' ' + style.gradientToright}
+        type="button"
+        onClick={sortItemsUp}
+      >
+        RARITY -+
+      </button>
+      <button
+        className={style.button + ' ' + style.gradientToleft}
+        type="button"
+        onClick={sortDataDown}
+      >
+        +- RARITY
+      </button>
+      <button className={style.button} type="button" onClick={sortWhite}>
+        WHITE
+      </button>
+      <button className={style.button + ' ' + style.green} type="button" onClick={sortGreen}>
+        GREEN
+      </button>
+      <button className={style.button + ' ' + style.red} type="button" onClick={sortRed}>
+        RED
+      </button>
     </div>
   );
 };
