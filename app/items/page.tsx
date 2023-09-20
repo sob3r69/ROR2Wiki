@@ -1,13 +1,17 @@
 'use client';
-import React, { useState } from 'react';
-import styles from './page.module.css';
+import React from 'react';
+import styles from './itemsPage.module.css';
 import ItemList from '@/components/ItemList/ItemList';
+import ItemsSorting from '@/components/Sorting/ItemsSorting';
 
 const ItemsPage = () => {
   return (
-    <main className={styles.items}>
-      <ItemList />
-    </main>
+    <>
+      <ItemsSorting />
+      <main className={styles.items}>
+        <ItemList />
+      </main>
+    </>
   );
 };
 

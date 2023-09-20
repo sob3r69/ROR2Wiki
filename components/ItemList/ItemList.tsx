@@ -1,17 +1,16 @@
 import Link from 'next/link';
 import ItemBox from '../ItemBox/ItemBox';
-import json from '@/data/Items.json';
 import '@/data/items.css';
+import { useAtom } from 'jotai';
+import { itemsAtom } from '@/store/Atoms';
 
 const ItemList = () => {
-  const data = Object.entries(json);
+  const [itemData] = useAtom(itemsAtom);
+  console.log('ItemList render');
 
-  data.sort((a, b) => {
-    return a[1].RARITY - b[1].RARITY;
-  });
   return (
     <>
-      {data.map((value, index) => (
+      {itemData.map((value, index) => (
         <Link href={'items/' + value[0]}>
           <ItemBox
             imgSrc={'/items/' + value[0] + '.png'}
