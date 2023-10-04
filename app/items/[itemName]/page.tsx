@@ -2,7 +2,7 @@
 // import { DocumentData, collection, doc, getDoc } from 'firebase/firestore';
 // import { firebaseConfig, db } from '@/firebase';
 import style from './itemPage.module.css';
-import { usePathname, useParams } from 'next/navigation';
+import { useParams } from 'next/navigation';
 import json from '@/data/Items.json';
 import '@/data/items.css';
 import LoreField from '@/components/LoreField/LoreField';
@@ -13,9 +13,9 @@ import Image from 'next/image';
 const page = () => {
   const route = useParams().itemName;
 
-  const [name, setName] = useState('');
-  const [descr, setDescr] = useState('');
-  const [lore, setLore] = useState('');
+  // const [name, setName] = useState('');
+  // const [descr, setDescr] = useState('');
+  // const [lore, setLore] = useState('');
   // useEffect(() => {
   //   (async () => {
   //     const itemsRef = doc(db, 'items', route.toString());

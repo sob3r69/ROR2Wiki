@@ -2,12 +2,14 @@ import React, { CSSProperties } from 'react';
 import styles from './itembox.module.css';
 import Image from 'next/image';
 import items from '../../data/Items.json';
+import Link from 'next/link';
 
 type ItemProps = {
   itemName: string;
   imgSrc: string;
   itemDscr: string;
   itemRarity: number;
+  itemLink: string;
 };
 type RarityStyle = {
   [index: string]: { backgroundImage: string };
@@ -28,16 +30,18 @@ const rarity: RarityStyle = {
   },
 };
 
-const ItemBox = ({ itemName, imgSrc, itemDscr: itemDescr, itemRarity }: ItemProps) => {
+const ItemBox = ({ itemName, imgSrc, itemDscr: itemDescr, itemRarity, itemLink }: ItemProps) => {
   const rarStyle = rarity[itemRarity];
   return (
-    <div className={styles.container} style={rarStyle}>
-      <Image src={imgSrc} alt="Error" width={64} height={64} />
-      <div className={styles.info}>
-        <b>{itemName}</b>
-        <div dangerouslySetInnerHTML={{ __html: itemDescr }} />
+    <Link href={itemLink} style={{ flexGrow: 1, maxWidth: '440px' }}>
+      <div className={styles.container} style={rarStyle}>
+        <Image src={imgSrc} alt="Error" width={64} height={64} />
+        <span className={styles.info}>
+          <b>{itemName}</b>
+          <div dangerouslySetInnerHTML={{ __html: itemDescr }} />
+        </span>
       </div>
-    </div>
+    </Link>
   );
 };
 

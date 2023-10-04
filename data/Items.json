@@ -273,5 +273,16 @@
     "SYMBOL": "",
     "DESC": "Gain <span class=cIsDamage>5% critical chance</span>. <span class=cIsDamage>Critical strikes</span> <span class=cIsHealing>heal</span> for <span class=cIsHealing>8</span> <span class=cStack>(+4 per stack)</span> <span class=cIsHealing>health</span>.",
     "LORE": "\u201CI\u2019m not going nowhere. What I do is important, and no plague is going to stop me from getting that done. City folk are all up in a tizzy over this and that, scared that ya\u2019ll will pass without doing some crazy goals you set for yourself. \r\n\r\nBut me, I\u2019m not afraid of death. Suffering is just another part of life, and like labor, I can do it myself. To death, I say: I don\u2019t need your damn help.\u201D\r\n\r\n- Unnamed Farmer, Tragedy of Mercury: A History\r\n"
+  },
+  "cautious_slug": {
+    "NAME": "Cautious Slug || HEALWHILESAFE",
+    "RARITY": 0,
+    "PICKUP": "Rapidly heal outside of danger.",
+    "INIT": 3,
+    "ITER": 3,
+    "STACK": "Linear",
+    "SYMBOL": "hp/s",
+    "DESC": "Increases <span class=cIsHealing>base health regeneration</span> by <span class=cIsHealing>+3 hp/s</span> <span class=cStack>(+3 hp/s per stack)</span>while outside of combat.",
+    "LORE": "\u201COne of the most crucial things to remember about having an animal companion is that your relationship is built on trust. Though humans are perceptive, we tend to be blinded by what we see \u2013 and we ignore the dangers that lurk beyond our vision. Animals, and other xenobiology, can sense things we can\u2019t. \r\n\r\nSo always remember: if your companion warns you of danger in the dark, you had better well listen.\u201D\r\n\r\n- Caring for your Pets, Volume III\r\n"
   }
 }

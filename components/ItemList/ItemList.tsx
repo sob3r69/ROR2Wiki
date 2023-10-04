@@ -11,14 +11,13 @@ const ItemList = () => {
   return (
     <>
       {itemData.map((value, index) => (
-        <Link href={'items/' + value[0]}>
-          <ItemBox
-            imgSrc={'/items/' + value[0] + '.png'}
-            itemDscr={value[1].DESC}
-            itemName={value[1].NAME}
-            itemRarity={value[1].RARITY}
-          />
-        </Link>
+        <ItemBox
+          itemLink={'items/' + value[0]}
+          imgSrc={'/items/' + value[0] + '.png'}
+          itemDscr={value[1].DESC}
+          itemName={value[1].NAME}
+          itemRarity={value[1].RARITY}
+        />
       ))}
     </>
   );

@@ -3,11 +3,6 @@
   "EQUIPMENT_PICKUP_CONTEXT": "Get {0}",
   "EQUIPMENT_SWAP_CONTEXT": "Swap for {0}",
 
-  "ITEM_HEALWHILESAFE_NAME": "Cautious Slug",
-  "ITEM_HEALWHILESAFE_PICKUP": "Rapidly heal outside of danger.",
-  "ITEM_HEALWHILESAFE_DESC": "Increases <span class=cIsHealing>base health regeneration</span> by <span class=cIsHealing>+3 hp/s</span> <span class=cStack>(+3 hp/s per stack)</span>while outside of combat.",
-  "ITEM_HEALWHILESAFE_LORE": "\u201COne of the most crucial things to remember about having an animal companion is that your relationship is built on trust. Though humans are perceptive, we tend to be blinded by what we see \u2013 and we ignore the dangers that lurk beyond our vision. Animals, and other xenobiology, can sense things we can\u2019t. \r\n\r\nSo always remember: if your companion warns you of danger in the dark, you had better well listen.\u201D\r\n\r\n- Caring for your Pets, Volume III\r\n",
-
   "ITEM_JUMPBOOST_NAME": "Wax Quail",
   "ITEM_JUMPBOOST_PICKUP": "Jumping while sprinting boosts you forward.",
   "ITEM_JUMPBOOST_DESC": "<span class=cIsUtility>Jumping</span> while <span class=cIsUtility>sprinting</span> boosts you forward by <span class=cIsUtility>10m</span><span class=cStack>(+10m per stack)</span>.",
