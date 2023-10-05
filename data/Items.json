@@ -284,5 +284,49 @@
     "SYMBOL": "hp/s",
     "DESC": "Increases <span class=cIsHealing>base health regeneration</span> by <span class=cIsHealing>+3 hp/s</span> <span class=cStack>(+3 hp/s per stack)</span>while outside of combat.",
     "LORE": "\u201COne of the most crucial things to remember about having an animal companion is that your relationship is built on trust. Though humans are perceptive, we tend to be blinded by what we see \u2013 and we ignore the dangers that lurk beyond our vision. Animals, and other xenobiology, can sense things we can\u2019t. \r\n\r\nSo always remember: if your companion warns you of danger in the dark, you had better well listen.\u201D\r\n\r\n- Caring for your Pets, Volume III\r\n"
+  },
+  "wax_quail": {
+    "NAME": "Wax Quail (JUMPBOOST)",
+    "RARITY": 1,
+    "PICKUP": "Jumping while sprinting boosts you forward.",
+    "INIT": 10,
+    "ITER": 10,
+    "STACK": "Linear",
+    "SYMBOL": "m",
+    "DESC": "<span class=cIsUtility>Jumping</span> while <span class=cIsUtility>sprinting</span> boosts you forward by <span class=cIsUtility>10m</span><span class=cStack>(+10m per stack)</span>.",
+    "LORE": "Order: Wax Quail\r\nTracking Number: 15******\r\nEstimated Delivery: 12/18/2056\r\nShipping Method: Priority\r\nShipping Address: Research Center, Polarity Zone, Neptune\r\nShipping Details:\r\n\r\nHello Buu,\r\nHow are you doing? This is Mama. \r\n\r\nThe weather here has been dreadful. It is raining every day. We have recently found a new bakery nearby that has delicious sandwiches. Papa has recently taken up whittling. He uses wax because it is softer. I have attached one of his favorites. Hopefully it has not been dinged in the mail :-)\r\n\r\nAnyways, I will leave Buu alone. Hope to see you soon!\r\nMama"
+  },
+  "personal_shield_generator": {
+    "NAME": "Personal Shield Generator (PERSONALSHIELD)",
+    "RARITY": 0,
+    "PICKUP": "Gain a recharging shield.",
+    "INIT": 8,
+    "ITER": 8,
+    "STACK": "Linear",
+    "SYMBOL": "%",
+    "DESC": "Gain a <span class=cIsHealing>shield</span> equal to <span class=cIsHealing>8%</span> <span class=cStack>(+8% per stack)</span> of your maximum health. Recharges outside of danger.",
+    "LORE": "\"While the kinetic rating is very poor, the extremely cheap production costs of Hinon\u2019s Personal Barrier made it a great budget tool for hikers, sailors, and even daily commuters to be comfortable in harsh weather. Many people in the office figured out they could replace their expensive winter jackets with comfortable, trendy personal barriers!\"\r\n\r\n-Top 10 Best Personal Barriers of 2053\r\n"
+  },
+  "n'kuhana's_opinion": {
+    "NAME": "N'kuhana's Opinion (NOVAONHEAL)",
+    "RARITY": 3,
+    "PICKUP": "Fire haunting skulls when healed.",
+    "INIT": 100,
+    "ITER": 100,
+    "STACK": "Linear",
+    "SYMBOL": "%",
+    "DESC": "Store <span class=cIsHealing>100%</span> <span class=cStack>(+100% per stack)</span> of healing as <span class=cIsHealing>Soul Energy</span>. After your <span class=cIsHealing>Soul Energy</span> reaches <span class=cIsHealing>10%</span> of your <span class=cIsHealing>maximum health</span>, <span class=cIsDamage>fire a skull</span> that deals <span class=cIsDamage>250%</span> of your <span class=cIsHealing>Soul Energy</span> as <span class=cIsDamage>damage</span>.",
+    "LORE": "\"Let us begin.\r\n\r\nWhat is your oath?\r\n\r\nNot very long ago, health and time were in perfect synergy. Pain and love. Death and memories. The great equalizer. She would always come for us. \r\n\r\nBut! Disparity now plagues our generations - and our children's. Not many pass, but so many are born. So many doomed souls, saved. Our hubris as a race continues to grow - unchecked. Unrestrained. \r\n\r\nNow there is no volume in our world for death, and she cannot visit us. But is being alive only an offset from death? Without contrast, won't we all be dead in life? The standard has shifted, and now we are all so very close to never living again.\r\n\r\nWe must make volume for her name - to restore the balance. Let us consume the Concepts, so we may begin to drain the bloated cistern that is our world. As disciples, we will spread her words and opinions. As pupils, we will sow death. And should we be lucky... be granted an audience by Her.\r\n\r\nWeshan!\"\r\n\r\n-The N'tormat, Chapter I, Stanza I, Verse II\r\n"
+  },
+  "medkit": {
+    "NAME": "Medkit",
+    "RARITY": 0,
+    "PICKUP": "Receive a delayed heal after taking damage.",
+    "INIT": 5,
+    "ITER": 5,
+    "STACK": "Linear",
+    "SYMBOL": "%",
+    "DESC": "2 seconds after getting hurt, <span class=cIsHealing>heal</span> for <span class=cIsHealing>20</span> plus an additional <span class=cIsHealing>5% <span class=cStack>(+5% per stack)</span></span> of <span class=cIsHealing>maximum health</span>.",
+    "LORE": "\n<span class=cMono>\"I suggest you stay indoors and rest.\"</span>\r\n\r\nMED-E, the medical bot, has been working overtime. The survivors felt very grateful that their escape pod landed near Med Bay cargo - they would have most likely perished without it.\r\n\r\n<span class=cMono>\"I suggest you stay indoors and rest.\"</span>\r\n\r\nThe robot was speaking to a tall man, gaunt but strong. \"I'd love to, but we're running low on food.\" Even though his expression was hidden underneath his blue combat helmet, it was obvious the man was extremely tired. \"And everyone else is recovering from last night's attacks. Without the enforcers, we probably wouldn't have-\"\r\n\r\n<span class=cMono>\"I suggest you stay indoors and rest.\" </span>\r\n\r\nIt was apparent that MED-E only had a limited set of lines. However, the man continued to respond. \"I can't, MED-E. They're counting on me. You know that.\"\r\n\r\n<span class=cMono>\"I suggest you stay indoors and rest.\" </span>\r\n\r\nThis time the man did not humor a reply. Grabbing his shotgun, he turned away from the echoing robot. Weaving his way between countless sleeping bags and stretchers, he set out into the wilderness again. Everyone was counting on him.\r\n\r\n<span class=cMono>\"Please stay indoors and rest.\" </span>\r\n"
   }
 }

@@ -3,21 +3,6 @@
   "EQUIPMENT_PICKUP_CONTEXT": "Get {0}",
   "EQUIPMENT_SWAP_CONTEXT": "Swap for {0}",
 
-  "ITEM_JUMPBOOST_NAME": "Wax Quail",
-  "ITEM_JUMPBOOST_PICKUP": "Jumping while sprinting boosts you forward.",
-  "ITEM_JUMPBOOST_DESC": "<span class=cIsUtility>Jumping</span> while <span class=cIsUtility>sprinting</span> boosts you forward by <span class=cIsUtility>10m</span><span class=cStack>(+10m per stack)</span>.",
-  "ITEM_JUMPBOOST_LORE": "Order: Wax Quail\r\nTracking Number: 15******\r\nEstimated Delivery: 12/18/2056\r\nShipping Method: Priority\r\nShipping Address: Research Center, Polarity Zone, Neptune\r\nShipping Details:\r\n\r\nHello Buu,\r\nHow are you doing? This is Mama. \r\n\r\nThe weather here has been dreadful. It is raining every day. We have recently found a new bakery nearby that has delicious sandwiches. Papa has recently taken up whittling. He uses wax because it is softer. I have attached one of his favorites. Hopefully it has not been dinged in the mail :-)\r\n\r\nAnyways, I will leave Buu alone. Hope to see you soon!\r\nMama",
-
-  "ITEM_PERSONALSHIELD_NAME": "Personal Shield Generator",
-  "ITEM_PERSONALSHIELD_PICKUP": "Gain a recharging shield.",
-  "ITEM_PERSONALSHIELD_DESC": "Gain a <span class=cIsHealing>shield</span> equal to <span class=cIsHealing>8%</span> <span class=cStack>(+8% per stack)</span> of your maximum health. Recharges outside of danger.",
-  "ITEM_PERSONALSHIELD_LORE": "\"While the kinetic rating is very poor, the extremely cheap production costs of Hinon\u2019s Personal Barrier made it a great budget tool for hikers, sailors, and even daily commuters to be comfortable in harsh weather. Many people in the office figured out they could replace their expensive winter jackets with comfortable, trendy personal barriers!\"\r\n\r\n-Top 10 Best Personal Barriers of 2053\r\n",
-
-  "ITEM_NOVAONHEAL_NAME": "N'kuhana's Opinion",
-  "ITEM_NOVAONHEAL_PICKUP": "Fire haunting skulls when healed.",
-  "ITEM_NOVAONHEAL_DESC": "Store <span class=cIsHealing>100%</span> <span class=cStack>(+100% per stack)</span> of healing as <span class=cIsHealing>Soul Energy</span>. After your <span class=cIsHealing>Soul Energy</span> reaches <span class=cIsHealing>10%</span> of your <span class=cIsHealing>maximum health</span>, <span class=cIsDamage>fire a skull</span> that deals <span class=cIsDamage>250%</span> of your <span class=cIsHealing>Soul Energy</span> as <span class=cIsDamage>damage</span>.",
-  "ITEM_NOVAONHEAL_LORE": "\"Let us begin.\r\n\r\nWhat is your oath?\r\n\r\nNot very long ago, health and time were in perfect synergy. Pain and love. Death and memories. The great equalizer. She would always come for us. \r\n\r\nBut! Disparity now plagues our generations - and our children's. Not many pass, but so many are born. So many doomed souls, saved. Our hubris as a race continues to grow - unchecked. Unrestrained. \r\n\r\nNow there is no volume in our world for death, and she cannot visit us. But is being alive only an offset from death? Without contrast, won't we all be dead in life? The standard has shifted, and now we are all so very close to never living again.\r\n\r\nWe must make volume for her name - to restore the balance. Let us consume the Concepts, so we may begin to drain the bloated cistern that is our world. As disciples, we will spread her words and opinions. As pupils, we will sow death. And should we be lucky... be granted an audience by Her.\r\n\r\nWeshan!\"\r\n\r\n-The N'tormat, Chapter I, Stanza I, Verse II\r\n",
-
   "ITEM_MEDKIT_NAME": "Medkit",
   "ITEM_MEDKIT_PICKUP": "Receive a delayed heal after taking damage.",
   "ITEM_MEDKIT_DESC": "2 seconds after getting hurt, <span class=cIsHealing>heal</span> for <span class=cIsHealing>20</span> plus an additional <span class=cIsHealing>5% <span class=cStack>(+5% per stack)</span></span> of <span class=cIsHealing>maximum health</span>.",
