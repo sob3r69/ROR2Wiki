@@ -64,6 +64,15 @@ const ItemsSorting = () => {
       <button className={style.button + ' ' + style.red} type="button" onClick={sortRed}>
         RED
       </button>
+      <button className={style.button + ' ' + style.red} type="button" onClick={sortRed}>
+        ORANGE
+      </button>
+      <button className={style.button + ' ' + style.red} type="button" onClick={sortRed}>
+        PURPLE
+      </button>
+      <button className={style.button + ' ' + style.red} type="button" onClick={sortRed}>
+        BLUE
+      </button>
     </div>
   );
 };

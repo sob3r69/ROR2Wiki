@@ -1,7 +1,7 @@
 'use client';
 import React from 'react';
 import styles from './itemsPage.module.css';
-import ItemList from '@/components/ItemList/ItemList';
+import ItemList from '@/components/ItemsList/ItemsList';
 import ItemsSorting from '@/components/Sorting/ItemsSorting';
 
 const ItemsPage = () => {

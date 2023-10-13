@@ -1,10 +1,9 @@
-import Link from 'next/link';
 import ItemBox from '../ItemBox/ItemBox';
 import '@/data/items.css';
 import { useAtom } from 'jotai';
 import { itemsAtom } from '@/store/Atoms';
 
-const ItemList = () => {
+const ItemsList = () => {
   const [itemData] = useAtom(itemsAtom);
   console.log('ItemList render');
 
@@ -23,4 +22,4 @@ const ItemList = () => {
   );
 };
 
-export default ItemList;
+export default ItemsList;

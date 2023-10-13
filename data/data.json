@@ -3,11 +3,6 @@
   "EQUIPMENT_PICKUP_CONTEXT": "Get {0}",
   "EQUIPMENT_SWAP_CONTEXT": "Swap for {0}",
 
-  "ITEM_MEDKIT_NAME": "Medkit",
-  "ITEM_MEDKIT_PICKUP": "Receive a delayed heal after taking damage.",
-  "ITEM_MEDKIT_DESC": "2 seconds after getting hurt, <span class=cIsHealing>heal</span> for <span class=cIsHealing>20</span> plus an additional <span class=cIsHealing>5% <span class=cStack>(+5% per stack)</span></span> of <span class=cIsHealing>maximum health</span>.",
-  "ITEM_MEDKIT_LORE": "\n<span class=cMono>\"I suggest you stay indoors and rest.\"</span>\r\n\r\nMED-E, the medical bot, has been working overtime. The survivors felt very grateful that their escape pod landed near Med Bay cargo - they would have most likely perished without it.\r\n\r\n<span class=cMono>\"I suggest you stay indoors and rest.\"</span>\r\n\r\nThe robot was speaking to a tall man, gaunt but strong. \"I'd love to, but we're running low on food.\" Even though his expression was hidden underneath his blue combat helmet, it was obvious the man was extremely tired. \"And everyone else is recovering from last night's attacks. Without the enforcers, we probably wouldn't have-\"\r\n\r\n<span class=cMono>\"I suggest you stay indoors and rest.\" </span>\r\n\r\nIt was apparent that MED-E only had a limited set of lines. However, the man continued to respond. \"I can't, MED-E. They're counting on me. You know that.\"\r\n\r\n<span class=cMono>\"I suggest you stay indoors and rest.\" </span>\r\n\r\nThis time the man did not humor a reply. Grabbing his shotgun, he turned away from the echoing robot. Weaving his way between countless sleeping bags and stretchers, he set out into the wilderness again. Everyone was counting on him.\r\n\r\n<span class=cMono>\"Please stay indoors and rest.\" </span>\r\n",
-
   "ITEM_EQUIPMENTMAGAZINE_NAME": "Fuel Cell",
   "ITEM_EQUIPMENTMAGAZINE_PICKUP": "Hold an additional equipment charge. Reduce equipment cooldown.",
   "ITEM_EQUIPMENTMAGAZINE_DESC": "Hold an <span class=cIsUtility>additional equipment charge</span> <span class=cStack>(+1 per stack)</span>. <span class=cIsUtility>Reduce equipment cooldown</span> by <span class=cIsUtility>15%</span> <span class=cStack>(+15% per stack)</span>.",

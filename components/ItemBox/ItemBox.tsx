@@ -1,7 +1,6 @@
-import React, { CSSProperties } from 'react';
+import React from 'react';
 import styles from './itembox.module.css';
 import Image from 'next/image';
-import items from '../../data/Items.json';
 import Link from 'next/link';
 
 type ItemProps = {

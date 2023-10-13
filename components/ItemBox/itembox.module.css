@@ -16,6 +16,10 @@
   flex-grow: 1;
 }
 
+.container:hover {
+  border-color: yellow;
+}
+
 .info {
   display: flex;
   flex-direction: column;
