@@ -10,6 +10,7 @@ const Header = () => {
       <Link href="/items">Characters</Link>
       <Link href="/items">Stats</Link>
       <Link href="/items">Enemies</Link>
+      <Link href="/items">Calculator</Link>
     </header>
   );
 };

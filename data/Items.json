@@ -1,7 +1,7 @@
 {
   "soliders_syringe": {
     "NAME": "Soldier's Syringe",
-    "RARITY": 0,
+    "RARITY": "white",
     "INIT": 15,
     "ITER": 15,
     "SYMBOL": "%",
@@ -12,7 +12,7 @@
   },
   "tougher_times": {
     "NAME": "Tougher Times",
-    "RARITY": 0,
+    "RARITY": "white",
     "INIT": 0.15,
     "STACK": "Hyperbolic",
     "SYMBOL": "%",
@@ -22,7 +22,7 @@
   },
   "brilliant_behemoth": {
     "NAME": "Brilliant Behemoth",
-    "RARITY": 3,
+    "RARITY": "red",
     "PICKUP": "All your attacks explode!",
     "INIT": 4,
     "ITER": 1.5,
@@ -33,7 +33,7 @@
   },
   "atg_missile": {
     "NAME": "AtG Missile Mk. 1",
-    "RARITY": 1,
+    "RARITY": "green",
     "PICKUP": "Chance to fire a missile.",
     "INIT": 300,
     "ITER": 300,
@@ -44,7 +44,7 @@
   },
   "willo_wisp": {
     "NAME": "Will-o'-the-wisp",
-    "RARITY": 1,
+    "RARITY": "green",
     "PICKUP": "Detonate enemies on kill.",
     "INIT": 12,
     "ITER": 2.4,
@@ -56,7 +56,7 @@
 
   "dagger": {
     "NAME": "Ceremonial Dagger",
-    "RARITY": 3,
+    "RARITY": "red",
     "PICKUP": "Killing an enemy releases homing daggers.",
     "INIT": 150,
     "ITER": 150,
@@ -67,7 +67,7 @@
   },
   "monster_tooth": {
     "NAME": "Monster Tooth",
-    "RARITY": 0,
+    "RARITY": "white",
     "PICKUP": "Drop a healing orb on kill.",
     "INIT": 8,
     "ITER": 8,
@@ -78,7 +78,7 @@
   },
   "glasses": {
     "NAME": "Lens-Maker's Glasses",
-    "RARITY": 0,
+    "RARITY": "white",
     "PICKUP": "Gain 10% chance for hits to 'Critically Strike', dealing double damage.",
     "INIT": 10,
     "ITER": 10,
@@ -89,7 +89,7 @@
   },
   "goat_hoof": {
     "NAME": "Paul's Goat Hoof",
-    "RARITY": 0,
+    "RARITY": "white",
     "PICKUP": "Increase movement speed.",
     "INIT": 14,
     "ITER": 14,
@@ -100,7 +100,7 @@
   },
   "hopoo_feather": {
     "NAME": "Hopoo Feather",
-    "RARITY": 1,
+    "RARITY": "green",
     "PICKUP": "Gain an extra jump.",
     "INIT": 1,
     "ITER": 1,
@@ -111,7 +111,7 @@
   },
   "ukulele": {
     "NAME": "Ukulele",
-    "RARITY": 1,
+    "RARITY": "green",
     "PICKUP": "...and his music was electric.",
     "INIT": 3,
     "ITER": 2,
@@ -122,7 +122,7 @@
   },
   "leeching_seed": {
     "NAME": "Leeching Seed",
-    "RARITY": 1,
+    "RARITY": "green",
     "PICKUP": "Dealing damage heals you.",
     "INIT": 1,
     "ITER": 1,
@@ -133,7 +133,7 @@
   },
   "frost_relic": {
     "NAME": "Frost Relic",
-    "RARITY": 3,
+    "RARITY": "red",
     "PICKUP": "Killing enemies surrounds you with an ice storm.",
     "INIT": 1,
     "ITER": 1,
@@ -144,7 +144,7 @@
   },
   "leaf_clover": {
     "NAME": "57 Leaf Clover",
-    "RARITY": 3,
+    "RARITY": "red",
     "PICKUP": "Luck is on your side.",
     "INIT": 1,
     "ITER": 1,
@@ -155,7 +155,7 @@
   },
   "happiest_mask": {
     "NAME": "Happiest Mask",
-    "RARITY": 3,
+    "RARITY": "red",
     "PICKUP": "Chance on killing an enemy to summon a ghost.",
     "INIT": 30,
     "ITER": 30,
@@ -166,7 +166,7 @@
   },
   "bustling_fungus": {
     "NAME": "Bustling Fungus",
-    "RARITY": 0,
+    "RARITY": "white",
     "PICKUP": "Heal all nearby allies after standing still for 1 second.",
     "INIT": 4.5,
     "ITER": 2.25,
@@ -177,7 +177,7 @@
   },
   "crowbar": {
     "NAME": "Crowbar",
-    "RARITY": 0,
+    "RARITY": "white",
     "PICKUP": "Deal bonus damage to enemies above 90% health.",
     "INIT": 75,
     "ITER": 75,
@@ -188,7 +188,7 @@
   },
   "predatory instincts": {
     "NAME": "Predatory Instincts",
-    "RARITY": 1,
+    "RARITY": "green",
     "PICKUP": "'Critical Strikes' increase attack speed. Stacks 3 times.",
     "INIT": 12,
     "ITER": 12,
@@ -199,7 +199,7 @@
   },
   "tri-tip_dagger": {
     "NAME": "Tri-Tip Dagger",
-    "RARITY": 0,
+    "RARITY": "white",
     "PICKUP": "Gain +10% chance to bleed enemies on hit.",
     "INIT": 10,
     "ITER": 10,
@@ -210,7 +210,7 @@
   },
   "red_whit": {
     "NAME": "Red Whip",
-    "RARITY": 1,
+    "RARITY": "green",
     "PICKUP": "Move fast out of combat.",
     "INIT": 30,
     "ITER": 30,
@@ -221,7 +221,7 @@
   },
   "H3AD-5T v2": {
     "NAME": "H3AD-5T v2 (need to add exponential stack) ||",
-    "RARITY": 3,
+    "RARITY": "red",
     "PICKUP": "Increase jump height. Hold 'Interact' to slam down to the ground.",
     "INIT": 10,
     "ITER": 50,
@@ -232,7 +232,7 @@
   },
   "warbanner": {
     "NAME": "Warbanner",
-    "RARITY": 0,
+    "RARITY": "white",
     "PICKUP": "Drop a Warbanner on level up or starting the Teleporter event. Grants allies attack and movement speed.",
     "INIT": 16,
     "ITER": 8,
@@ -243,7 +243,7 @@
   },
   "berzerker's_pauldron": {
     "NAME": "Berzerker's Pauldron (WARCRYONMULTIKILL)",
-    "RARITY": 1,
+    "RARITY": "green",
     "PICKUP": "Enter a frenzy after killing 4 enemies in quick succession.",
     "INIT": 6,
     "ITER": 4,
@@ -254,7 +254,7 @@
   },
   "old_war_stealthkit": {
     "NAME": "Old War Stealthkit (PHASING) (EXPONENTIAL) ||",
-    "RARITY": 1,
+    "RARITY": "green",
     "PICKUP": "Turn invisible at low health.",
     "INIT": 5,
     "ITER": 50,
@@ -265,7 +265,7 @@
   },
   "harvester's_scythe": {
     "NAME": "Harvester's Scythe (HEALONCRIT)",
-    "RARITY": 1,
+    "RARITY": "green",
     "PICKUP": "'Critical Strikes' heal you.",
     "INIT": 8,
     "ITER": 4,
@@ -276,7 +276,7 @@
   },
   "cautious_slug": {
     "NAME": "Cautious Slug || HEALWHILESAFE",
-    "RARITY": 0,
+    "RARITY": "white",
     "PICKUP": "Rapidly heal outside of danger.",
     "INIT": 3,
     "ITER": 3,
@@ -287,7 +287,7 @@
   },
   "wax_quail": {
     "NAME": "Wax Quail (JUMPBOOST)",
-    "RARITY": 1,
+    "RARITY": "green",
     "PICKUP": "Jumping while sprinting boosts you forward.",
     "INIT": 10,
     "ITER": 10,
@@ -298,7 +298,7 @@
   },
   "personal_shield_generator": {
     "NAME": "Personal Shield Generator (PERSONALSHIELD)",
-    "RARITY": 0,
+    "RARITY": "white",
     "PICKUP": "Gain a recharging shield.",
     "INIT": 8,
     "ITER": 8,
@@ -309,7 +309,7 @@
   },
   "n'kuhana's_opinion": {
     "NAME": "N'kuhana's Opinion (NOVAONHEAL)",
-    "RARITY": 3,
+    "RARITY": "red",
     "PICKUP": "Fire haunting skulls when healed.",
     "INIT": 100,
     "ITER": 100,
@@ -320,7 +320,7 @@
   },
   "medkit": {
     "NAME": "Medkit",
-    "RARITY": 0,
+    "RARITY": "white",
     "PICKUP": "Receive a delayed heal after taking damage.",
     "INIT": 5,
     "ITER": 5,
@@ -331,7 +331,7 @@
   },
   "fuel_cell": {
     "NAME": "Fuel Cell (EQUIPMENTMAGAZINE) | (Linear, Exponential)",
-    "RARITY": 1,
+    "RARITY": "green",
     "PICKUP": "Hold an additional equipment charge. Reduce equipment cooldown.",
     "INIT": 5,
     "ITER": 5,
@@ -339,5 +339,27 @@
     "SYMBOL": "%",
     "DESC": "Hold an <span class=cIsUtility>additional equipment charge</span> <span class=cStack>(+1 per stack)</span>. <span class=cIsUtility>Reduce equipment cooldown</span> by <span class=cIsUtility>15%</span> <span class=cStack>(+15% per stack)</span>.",
     "LORE": "\"As humanity began to venture out into the depths of space, high-energy but low-volume fuel sources became critical for interplanetary travel. Stability came later.\"\n-Brief History of Interplanetary Advances, Vol.2\n"
+  },
+  "infusion": {
+    "NAME": "Infusion",
+    "RARITY": "green",
+    "PICKUP": "Killing an enemy permanently increases your maximum health, up to 100.",
+    "INIT": 100,
+    "ITER": 100,
+    "STACK": "Linear",
+    "SYMBOL": "",
+    "DESC": "Killing an enemy increases your <span class=cIsHealing>health permanently</span> by <span class=cIsHealing>1</span> <span class=cStack>(+1 per stack)</span>, up to a <span class=cIsHealing>maximum</span> of <span class=cIsHealing>100 <span class=cStack>(+100 per stack)</span> health</span>.",
+    "LORE": "Order: Infusion\r\nTracking Number: 768******\r\nEstimated Delivery: 02/8/2056\r\nShipping Method: Priority/Biological\r\nShipping Address: Rage Valley, Fleet Hanger, Mars\r\n\r\nContains samples from bears, leeches, tigers, elephants, elephant sharks, sharks, bull sharks, ants, and anteaters. Simply hook up to a dialysis machine along with the necessary equipment and swap out your blood for genetically superior ones! \r\n\r\nYou can add whatever blood sample you want, as far as I know. Just make sure you take the pills that allow the body to accept the new blood, or your body will reject the cross-species infusion. Remember that sampling from other animals is a great basis for experimentation!\r\n"
+  },
+  "unstable_tesla_coil": {
+    "NAME": "Unstable Tesla Coil",
+    "RARITY": "red",
+    "PICKUP": "Shock all nearby enemies every 10 seconds.",
+    "INIT": 3,
+    "ITER": 2,
+    "STACK": "Linear",
+    "SYMBOL": "",
+    "DESC": "Fire out <span class=cIsDamage>lightning</span> that hits <span class=cIsDamage>3</span> <span class=cStack>(+2 per stack)</span> enemies for <span class=cIsDamage>200%</span> base damage every <span class=cIsDamage>0.5s</span>. The Tesla Coil switches off every <span class=cIsDamage>10 seconds</span>.",
+    "LORE": "<span class=cMono>Tesla Presentation Software v1.14\r\nPowering on...\r\n10...\r\nIssuing welcome statement...\r\n9...</span>\r\nWelcome one and all!\r\n<span class=cMono>8...</span>\r\nPlease take a seat.\r\n<span class=cMono>7...</span>\r\nMake sure those behind you can see.\r\n<span class=cMono>6...</span>\r\nThe presentation will start shortly.\r\n<span class=cMono>5...</span>\r\nPlease obey the staff for your safety.\r\n<span class=cMono>4...\r\nInitiating room mood lighting...\r\n3...</span>\r\nGet ready to behold...\r\n<span class=cMono>2...</span>\r\nThe marvelous wonders...\r\n<span class=cMono>1...</span>\r\nOf electricity!\r\n<span class=cMono>Power anomaly detected...\r\nInitiating reboot procedure in 10...</span>\r\n"
   }
 }

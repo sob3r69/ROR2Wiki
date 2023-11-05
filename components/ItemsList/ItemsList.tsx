@@ -13,7 +13,7 @@ const ItemsList = () => {
         <ItemBox
           itemLink={'items/' + value[0]}
           imgSrc={'/items/' + value[0] + '.png'}
-          itemDscr={value[1].DESC}
+          itemDescr={value[1].DESC}
           itemName={value[1].NAME}
           itemRarity={value[1].RARITY}
         />

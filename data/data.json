@@ -3,21 +3,6 @@
   "EQUIPMENT_PICKUP_CONTEXT": "Get {0}",
   "EQUIPMENT_SWAP_CONTEXT": "Swap for {0}",
 
-  "ITEM_EQUIPMENTMAGAZINE_NAME": "Fuel Cell",
-  "ITEM_EQUIPMENTMAGAZINE_PICKUP": "Hold an additional equipment charge. Reduce equipment cooldown.",
-  "ITEM_EQUIPMENTMAGAZINE_DESC": "Hold an <span class=cIsUtility>additional equipment charge</span> <span class=cStack>(+1 per stack)</span>. <span class=cIsUtility>Reduce equipment cooldown</span> by <span class=cIsUtility>15%</span> <span class=cStack>(+15% per stack)</span>.",
-  "ITEM_EQUIPMENTMAGAZINE_LORE": "\"As humanity began to venture out into the depths of space, high-energy but low-volume fuel sources became critical for interplanetary travel. Stability came later.\"\n-Brief History of Interplanetary Advances, Vol.2\n",
-
-  "ITEM_INFUSION_NAME": "Infusion",
-  "ITEM_INFUSION_PICKUP": "Killing an enemy permanently increases your maximum health, up to 100.",
-  "ITEM_INFUSION_DESC": "Killing an enemy increases your <span class=cIsHealing>health permanently</span> by <span class=cIsHealing>1</span> <span class=cStack>(+1 per stack)</span>, up to a <span class=cIsHealing>maximum</span> of <span class=cIsHealing>100 <span class=cStack>(+100 per stack)</span> health</span>.",
-  "ITEM_INFUSION_LORE": "Order: Infusion\r\nTracking Number: 768******\r\nEstimated Delivery: 02/8/2056\r\nShipping Method: Priority/Biological\r\nShipping Address: Rage Valley, Fleet Hanger, Mars\r\n\r\nContains samples from bears, leeches, tigers, elephants, elephant sharks, sharks, bull sharks, ants, and anteaters. Simply hook up to a dialysis machine along with the necessary equipment and swap out your blood for genetically superior ones! \r\n\r\nYou can add whatever blood sample you want, as far as I know. Just make sure you take the pills that allow the body to accept the new blood, or your body will reject the cross-species infusion. Remember that sampling from other animals is a great basis for experimentation!\r\n",
-
-  "ITEM_SHOCKNEARBY_NAME": "Unstable Tesla Coil",
-  "ITEM_SHOCKNEARBY_PICKUP": "Shock all nearby enemies every 10 seconds.",
-  "ITEM_SHOCKNEARBY_DESC": "Fire out <span class=cIsDamage>lightning</span> that hits <span class=cIsDamage>3</span> <span class=cStack>(+2 per stack)</span> enemies for <span class=cIsDamage>200%</span> base damage every <span class=cIsDamage>0.5s</span>. The Tesla Coil switches off every <span class=cIsDamage>10 seconds</span>.",
-  "ITEM_SHOCKNEARBY_LORE": "<span class=cMono>Tesla Presentation Software v1.14\r\nPowering on...\r\n10...\r\nIssuing welcome statement...\r\n9...</span>\r\nWelcome one and all!\r\n<span class=cMono>8...</span>\r\nPlease take a seat.\r\n<span class=cMono>7...</span>\r\nMake sure those behind you can see.\r\n<span class=cMono>6...</span>\r\nThe presentation will start shortly.\r\n<span class=cMono>5...</span>\r\nPlease obey the staff for your safety.\r\n<span class=cMono>4...\r\nInitiating room mood lighting...\r\n3...</span>\r\nGet ready to behold...\r\n<span class=cMono>2...</span>\r\nThe marvelous wonders...\r\n<span class=cMono>1...</span>\r\nOf electricity!\r\n<span class=cMono>Power anomaly detected...\r\nInitiating reboot procedure in 10...</span>\r\n",
-
   "ITEM_IGNITEONKILL_NAME": "Gasoline",
   "ITEM_IGNITEONKILL_PICKUP": "Killing an enemy ignites other nearby enemies.",
   "ITEM_IGNITEONKILL_DESC": "Killing an enemy <span class=cIsDamage>ignites</span> all enemies within <span class=cIsDamage>12m</span> <span class=cStack>(+4m per stack)</span> for <span class=cIsDamage>150%</span> base damage. Additionally, enemies <span class=cIsDamage>burn</span> for <span class=cIsDamage>150%</span> <span class=cStack>(+75% per stack)</span> base damage.",
