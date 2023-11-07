@@ -220,7 +220,7 @@
     "LORE": "\u201C...going to 594 South River, Io. Check. One Whip, Red, Priority shipping. Going to... to, um... Oh, wow...\u201D\r\n\r\n-Signal echoes, UES Contact Light\r\n"
   },
   "H3AD-5T v2": {
-    "NAME": "H3AD-5T v2 (need to add exponential stack) ||",
+    "NAME": "H3AD-5T v2 (need to add exponential stack)",
     "RARITY": "red",
     "PICKUP": "Increase jump height. Hold 'Interact' to slam down to the ground.",
     "INIT": 10,
@@ -361,5 +361,49 @@
     "SYMBOL": "",
     "DESC": "Fire out <span class=cIsDamage>lightning</span> that hits <span class=cIsDamage>3</span> <span class=cStack>(+2 per stack)</span> enemies for <span class=cIsDamage>200%</span> base damage every <span class=cIsDamage>0.5s</span>. The Tesla Coil switches off every <span class=cIsDamage>10 seconds</span>.",
     "LORE": "<span class=cMono>Tesla Presentation Software v1.14\r\nPowering on...\r\n10...\r\nIssuing welcome statement...\r\n9...</span>\r\nWelcome one and all!\r\n<span class=cMono>8...</span>\r\nPlease take a seat.\r\n<span class=cMono>7...</span>\r\nMake sure those behind you can see.\r\n<span class=cMono>6...</span>\r\nThe presentation will start shortly.\r\n<span class=cMono>5...</span>\r\nPlease obey the staff for your safety.\r\n<span class=cMono>4...\r\nInitiating room mood lighting...\r\n3...</span>\r\nGet ready to behold...\r\n<span class=cMono>2...</span>\r\nThe marvelous wonders...\r\n<span class=cMono>1...</span>\r\nOf electricity!\r\n<span class=cMono>Power anomaly detected...\r\nInitiating reboot procedure in 10...</span>\r\n"
+  },
+  "gasoline": {
+    "NAME": "Gasoline (IGNITEONKIL) (DOUBLE LINEAR)",
+    "RARITY": "white",
+    "PICKUP": "Killing an enemy ignites other nearby enemies.",
+    "INIT": 12,
+    "ITER": 4,
+    "STACK": "Linear",
+    "SYMBOL": "m",
+    "DESC": "Killing an enemy <span class=cIsDamage>ignites</span> all enemies within <span class=cIsDamage>12m</span> <span class=cStack>(+4m per stack)</span> for <span class=cIsDamage>150%</span> base damage. Additionally, enemies <span class=cIsDamage>burn</span> for <span class=cIsDamage>150%</span> <span class=cStack>(+75% per stack)</span> base damage.",
+    "LORE": "<span class=cMono>\r\nAudio transcription complete from signal echoes. Assigning generic tokens.</span>\r\n\r\n[Fire crackling]\r\n\r\nMAN 1: D-do you think they're gonna come for us?\r\n\r\nMAN 2: They'll try. It's going to be a very long while.\r\n\r\nMAN 1: What? Why?\r\n\r\nMAN 2: A long while. Even if they know where to look we'd be months out from the nearest port. And that's if they even have any ships as fast as ours \u2013 FTL ships are very rare nowadays.\r\n\r\nMAN 1: Months...?! And what do you mean if they know where? What about the other ships on our shipping routes?\r\n\r\nMAN 2: We weren't on the route.\r\n\r\n[Fire pops]\r\n\r\nMAN 1: What?!\r\n\r\nMAN 2: We should've been halfway to Procyon by the time we crashed... but we weren\u2019t. The ship never announced it was slowing down either, so that\u2019ll make triangulating our positions even harder.\r\n\r\nMAN 1: I-I don't get it. Who would take a UES train off course? That's completely insane!\r\n\r\nMAN 2: I don\u2019t know \u2013 only the Captain does. There\u2019s no reason to slow down in this star system - there's not even supposed to be a habitable planet out here.\r\n\r\n[Sizzling]\r\n\r\nMAN 2: This looks cooked to me. Can't vouch for how it'll taste - but we have to eat.\r\n\r\nMAN 1: I... I can't even think right now. I\u2019m not hungry.\r\n\r\nMAN 2: Eat. We've got a lot of traveling to do tomorrow and we'll need to keep our strength.\r\n\r\nMAN 1: Sure. Okay. Okay. Um\u2026 do you think it's poisonous?\r\n\r\nMAN 2: Eat.\r\n\r\n<span class=cMono>End of requested transcript. </span>\r\n"
+  },
+  "sentient_meat_hook": {
+    "NAME": "Sentient Meat Hook (BOUNCENEARBY) (HYPERBOLIC, LINEAR)",
+    "RARITY": "red",
+    "PICKUP": "Chance to hook all nearby enemies.",
+    "INIT": 10,
+    "ITER": 5,
+    "STACK": "Linear",
+    "SYMBOL": "",
+    "DESC": "<span class=cIsDamage>20%</span> <span class=cStack>(+20% per stack)</span> chance on hit to <span class=cIsDamage>fire homing hooks</span> at up to <span class=cIsDamage>10</span> <span class=cStack>(+5 per stack)</span> enemies for <span class=cIsDamage>100%</span> TOTAL damage.",
+    "LORE": "\"When artificial intelligence became more commonplace, many companies jumped on the trend for \"smart\" products. This included smart doors, lights, coffee makers, lawnmowers, vacuum cleaners, bedding, kitchen knife sets, and other home goods. After a series of gruesome lawsuits stemming from hacked smart appliances, most products soon went back to their more traditional, analog lines.\"\r\n\r\n-\"Why Is Smart So Dumb? VII\"\r\n"
+  },
+  "bundle_of_fireworks": {
+    "NAME": "Bundle of Fireworks (FIREWORK)",
+    "RARITY": "white",
+    "PICKUP": "Activating an interactable launches fireworks at nearby enemies.",
+    "INIT": 8,
+    "ITER": 4,
+    "STACK": "Linear",
+    "SYMBOL": "",
+    "DESC": "Activating an interactable <span class=cIsDamage>launches 8 <span class=cStack>(+4 per stack)</span> fireworks</span> that deal <span class=cIsDamage>300%</span> base damage.",
+    "LORE": "\"Hey, happy anniversary!\r\n\r\nYou really thought I forgot?\r\n\r\nAh, I thought I was the dumb one in our relationship. C'mon T, of course not! Well, I wasn't going to let a little alien death planet ruin our night. Right? Shh, just watch. Just watch. It's okay. Just watch. You'll love it - you really will. Then we can go home.\r\n\r\nYou can keep your eyes closed. Just listen. Ah - here it comes! In five... four... three... two... ONE...!\"\r\n"
+  },
+  "bandolier": {
+    "NAME": "Bandolier",
+    "RARITY": "green",
+    "PICKUP": "Chance on kill to drop an ammo pack that resets all skill cooldowns.",
+    "INIT": 8,
+    "ITER": 4,
+    "STACK": "Linear",
+    "SYMBOL": "",
+    "DESC": "<span class=cIsUtility>18%</span> <span class=cStack>(+10% per stack)</span> chance on kill to drop an ammo pack that <span class=cIsUtility>resets all skill cooldowns</span>.",
+    "LORE": "Order: Bandolier\r\nTracking Number: 112*****\r\nEstimated Delivery: 04/19/2056\r\nShipping Method: Standard\r\nShipping Address: 3950 Sunsell Ln, Tri-City, Earth\r\nShipping Details:\r\n\r\nThank you for your participation in the auction! We\u2019ve included a short history on the item, as well as documents to verify its authenticity.\r\n\r\nThis is the famous bandolier worn by B. Grundy himself. He and his pals used to raise terror all over the map of the new territories. Their favorite activity was to tie up people they didn\u2019t like and drag them behind their horses \u2013 Grundy clearly had a sweet spot for the old days.\r\n\r\nThe sling carries an impressive assortment of ammunition - Grundy himself carried many different guns. It was rumored that they held out for 3 whole days and nights before their weapons ran dry.\r\n\r\n"
   }
 }

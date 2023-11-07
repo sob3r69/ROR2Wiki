@@ -8,35 +8,32 @@ const ItemsSorting = () => {
   const testData = initialItems.concat();
 
   const sortItemsUp = () => {
-    const sortedItems = testData.sort((a, b) => {
-      return a[1].RARITY - b[1].RARITY;
-    });
-    setItems(sortedItems);
+    setItems(filterWhite().concat(filterGreen()).concat(filterRed()));
   };
   const sortDataDown = () => {
-    const sortedItems = testData.sort((a, b) => {
-      return b[1].RARITY - a[1].RARITY;
-    });
-    setItems(sortedItems);
+    setItems(filterRed().concat(filterGreen()).concat(filterWhite()));
   };
 
-  const sortWhite = () => {
+  const filterWhite = () => {
     const sortedItems = testData.filter((item) => {
-      if (item[1].RARITY === 0) return item;
+      if (item[1].RARITY === 'white') return item;
     });
     setItems(sortedItems);
+    return sortedItems;
   };
-  const sortGreen = () => {
+  const filterGreen = () => {
     const sortedItems = testData.filter((item) => {
-      if (item[1].RARITY === 1) return item;
+      if (item[1].RARITY === 'green') return item;
     });
     setItems(sortedItems);
+    return sortedItems;
   };
-  const sortRed = () => {
+  const filterRed = () => {
     const sortedItems = testData.filter((item) => {
-      if (item[1].RARITY === 3) return item;
+      if (item[1].RARITY === 'red') return item;
     });
     setItems(sortedItems);
+    return sortedItems;
   };
 
   return (
@@ -55,22 +52,22 @@ const ItemsSorting = () => {
       >
         +- RARITY
       </button>
-      <button className={style.button} type="button" onClick={sortWhite}>
+      <button className={style.button} type="button" onClick={filterWhite}>
         WHITE
       </button>
-      <button className={style.button + ' ' + style.green} type="button" onClick={sortGreen}>
+      <button className={style.button + ' ' + style.green} type="button" onClick={filterGreen}>
         GREEN
       </button>
-      <button className={style.button + ' ' + style.red} type="button" onClick={sortRed}>
+      <button className={style.button + ' ' + style.red} type="button" onClick={filterRed}>
         RED
       </button>
-      <button className={style.button + ' ' + style.red} type="button" onClick={sortRed}>
+      <button className={style.button + ' ' + style.red} type="button" onClick={filterRed}>
         ORANGE
       </button>
-      <button className={style.button + ' ' + style.red} type="button" onClick={sortRed}>
+      <button className={style.button + ' ' + style.red} type="button" onClick={filterRed}>
         PURPLE
       </button>
-      <button className={style.button + ' ' + style.red} type="button" onClick={sortRed}>
+      <button className={style.button + ' ' + style.red} type="button" onClick={filterRed}>
         BLUE
       </button>
     </div>
