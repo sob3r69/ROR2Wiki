@@ -39,14 +39,14 @@ const ItemsSorting = () => {
   return (
     <div className={style.container}>
       <button
-        className={style.button + ' ' + style.gradientToright}
+        className={style.button + ' ' + style.gradientLTR}
         type="button"
         onClick={sortItemsUp}
       >
         RARITY -+
       </button>
       <button
-        className={style.button + ' ' + style.gradientToleft}
+        className={style.button + ' ' + style.gradientRTL}
         type="button"
         onClick={sortDataDown}
       >

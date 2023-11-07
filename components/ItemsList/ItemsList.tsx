@@ -11,6 +11,7 @@ const ItemsList = () => {
     <>
       {itemData.map((value, index) => (
         <ItemBox
+          key={index}
           itemLink={'items/' + value[0]}
           imgSrc={'/items/' + value[0] + '.png'}
           itemDescr={value[1].DESC}

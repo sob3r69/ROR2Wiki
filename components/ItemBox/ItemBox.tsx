@@ -29,12 +29,12 @@ const rarity: RarityStyle = {
 const ItemBox = ({ itemName, imgSrc, itemDescr, itemRarity, itemLink }: ItemProps) => {
   const rarStyle = rarity[itemRarity];
   return (
-    <Link href={itemLink} style={{ flexGrow: 1, maxWidth: '440px', height: '120px' }}>
+    <Link className={styles.box} href={itemLink}>
       <div className={styles.container} style={rarStyle}>
         <Image src={imgSrc} alt="Error" width={64} height={64} />
         <span className={styles.info}>
           <b>{itemName}</b>
-          <div dangerouslySetInnerHTML={{ __html: itemDescr }} />
+          <div className={styles.description} dangerouslySetInnerHTML={{ __html: itemDescr }} />
         </span>
       </div>
     </Link>
